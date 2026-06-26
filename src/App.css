@@ -1,0 +1,68 @@
+.app {
+  max-width: 800px;
+  margin: auto;
+}
+
+.contenido {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.form-container,
+.lista-container {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+button {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #000000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 4px;
+  border-left: 4px solid #000000;
+}
+
+.precio {
+  font-weight: bold;
+  color: #000000;
+}
